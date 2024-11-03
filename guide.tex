@@ -279,16 +279,16 @@
 
 		
 		\newpage
-		\item Git in the Cloud (GitHub) \footnote{\texttt{git config --global user.name "John Doe"}} \footnote{\texttt{git config --global user.email johndoe@example.com}} \\ Origin (Clone, Push, Pull) \footnote{En Linux: \texttt{git config --global credential.credentialStore cache}} \\ Permissions for GUIs (Private Clone, Contribute) 
+		\item Git in the Cloud (GitHub) \footnote{\texttt{git config --global user.name "John Doe"}} \footnote{\texttt{git config --global user.email johndoe@example.com}} \\ Origin (Clone, Push, Pull) \footnote{\texttt{git clone <remote url>}} \footnote{\texttt{git push (<origin>)}} \\ Permissions for GUIs (Private Clone, Contribute) \footnote{En Linux: \texttt{git config --global credential.credentialStore cache}}
 		
 		
 		\vspace{1cm}
 		\href{https://github.com/nicoGHO/pushpull}{\texttt{nicoGHO/pushpull}}
 		
-		\vspace{9cm}
+		\vspace{7cm}
 		Conflicts when pushing and pulling - People working at same time on \textbf{same branch}
 		
-		\vspace{1cm}
+		\vspace{3cm}
 		
 		\begin{tikzpicture}[
 			node/.style={circle, draw, fill=black, inner sep=2pt}
@@ -311,7 +311,7 @@
 		
 				
 		\newpage
-		\item Visualization (Code, README) \\ Network Graph \\ Issues \\ Projects
+		\item Visualization (Code, README) \\ Commits \\ Network Graph \\ Issues \\ Projects
 		
 		\vspace{1cm}
 		\href{https://github.com/nextcloud/server}{\texttt{nextcloud/server}}
@@ -324,7 +324,7 @@
 		
 		\newpage
 		\item Submodules \\
-		Adding \footnote{\texttt{git submodule add <repository-url> <path>}}, Updating \footnote{\texttt{git submodule update --init --recursive}} (\emph{Commit-based} \texttt{.gitmodules}) \\ Cloning \footnote{\texttt{git clone --recursive <project url>}} \\ Easier if inmutable
+		Adding \footnote{\texttt{git submodule add <repository-url> <path>}}, Updating \footnote{\texttt{git submodule update (--init --recursive)|(--remote)}} (\emph{Commit-based} \texttt{.gitmodules}) \\ Cloning \footnote{\texttt{git clone --recursive <project url>}} \\ Easier if inmutable
 		
 		\vspace{1cm}
 		\href{https://github.com/nicoGHO/submodules}{\texttt{nicoGHO/submodules}}
@@ -383,7 +383,7 @@
 		
 		If something breaks:
 		
-		Do not be afraid to use the terminal!
+		Do not be afraid to use the terminal! Rollbacks are used every day!
 		
 		\vspace{3cm}
 		¡Use git and \textbf{learn by fighting against it}!
@@ -394,7 +394,8 @@
 			\item Git LFS
 			\item Multi-Remote Work
 			\item Revert Pushed Commits
-			\item Several Staging Branches (prod, pre, dev)
+			\item Several Stable Branches (prod, pre, dev)
+			\item Commit Stashes
 			\item Automatic Deployments (CI/CD)
 		\end{itemize}
 		
